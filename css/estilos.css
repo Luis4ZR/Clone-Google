@@ -70,6 +70,76 @@ nav .nav-login:hover{
     box-shadow: 0 0 3px var(--color-azul);
 }
 
+
+/*
+============= Estilos de Main ===============
+===============================================*/
+main{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.buscador-bar .label-buscador{
+    display: block;
+    border: 1px solid var(--color-gris);
+    padding: 10px 15px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.buscador-bar .label-buscador:hover{
+    box-shadow: 0 0 4px var(--color-gris);
+}
+
+.buscador-bar .label-buscador img {
+    vertical-align: middle;
+}
+
+.label-buscador .icon-buscar, .label-buscador input{
+    float: left;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.label-buscador a{
+    float: right;
+}
+
+.label-buscador input{
+    font-size: 16px;
+    border: none;
+    width: 80%;
+}
+
+.label-buscador input:focus{
+    outline: none;
+}
+
+.botones {
+    margin-top: 30px;
+}
+
+.botones button{
+    all:unset;
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: var(--color-claro);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botones button:hover{
+    outline: 1px solid var(--color-gris);
+}
+
+.botones p{
+    font-size: 14px;
+}
+
 /*
 ============= Estilos de footer ===============
 ===============================================*/
